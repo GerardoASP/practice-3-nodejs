@@ -1,6 +1,6 @@
 const express = require('express');
 const { model } = require('mongoose');
-const subject_model = require('../models/course.model');
+const subject_model = require('../models/subject.model');
 const subject_routes = express.Router()
 
 subject_routes.get('/', (req, res)=>{
